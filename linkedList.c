@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 struct listNode {
-  int data;
-  struct listNode *link;
+    int data;
+    struct listNode *link;
 };
 struct listNode *head;
 
@@ -14,18 +14,18 @@ void insertNode(int);
 
 void main() {
 
-  struct listNode *node, *prevNode = NULL;
-  int i;
+    struct listNode *node, *prevNode = NULL;
+    int i;
 
-  /* manual insertion of elements */
-  for(i=10; i<=100; i+=10) {
+    /* manual insertion of elements */
+    for(i=10; i<=100; i+=10) {
         node = malloc(sizeof(*node));
         node->data = i;
         node->link = NULL;
         if(prevNode == NULL) head = node;
         else prevNode->link = node;
         prevNode = node;
-  }
+    }
 
     insertNode(20);
     insertNode(5);
