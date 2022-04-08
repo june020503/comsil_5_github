@@ -1,1 +1,6 @@
 lab02
+<<<<<<< HEAD
+=======
+homework
+retry because of 'recursive strategy'
+>>>>>>> lab02
