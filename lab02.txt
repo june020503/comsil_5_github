@@ -1,2 +1,3 @@
 lab02
 homework
+retry because of 'recursive strategy'
